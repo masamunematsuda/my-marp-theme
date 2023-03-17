@@ -12,7 +12,7 @@
 
 section {
   background-image: none;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Avenir Next', 'Noto Sans CJK JP', sans-serif;
   padding-top: 90px;
   padding-left: 40px;
   padding-right: 40px;
@@ -115,20 +115,17 @@ section strong {
   color: LightCoral;
 }
 section cite {
+  font-family: "Avenir Next Condensed:";
   font-style: normal;
-  font-size: 65%;
+  font-size: 70%;
   line-height: calc(0.25rem * 4);
   float: right;
-  color: #578166;
+  color: #01461c;
 }
 section footnote {
   font-style: normal;
   font-size: 80%;
-  color: #578166;
-}
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
+  color: #01461c;
 }
 .columns {
   display: grid;
