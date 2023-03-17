@@ -115,14 +115,12 @@ section strong {
   color: LightCoral;
 }
 section cite {
-  font-style: normal;
   font-size: 70%;
   line-height: calc(0.25rem * 4);
   float: right;
   color: #01461c;
 }
 section footnote {
-  font-style: normal;
   font-size: 80%;
   color: #01461c;
 }
