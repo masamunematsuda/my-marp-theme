@@ -68,10 +68,11 @@ section.lead p {
 }
 
 header {
-  background-color: #01461c;
-  color: #fff;
+  background-color: #b0dbc0;
+  color: #01461c;
   font-size: 1em;
   font-weight: 700;
+  text-align: center;
 }
 
 blockquote {
