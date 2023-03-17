@@ -66,6 +66,16 @@ section.lead h5 strong {
 section.lead p {
   text-align: right;
 }
+section.inside-title {
+  background-color: #A3C6E5;
+}
+section.FYR {
+  background-color: #DFECF6;
+}
+section.FYR code {
+background: #d1d8e1;
+color: #2962AD;
+}
 
 header {
   background-color: #b0dbc0;
