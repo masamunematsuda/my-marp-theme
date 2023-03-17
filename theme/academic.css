@@ -70,11 +70,11 @@ section.inside-title {
   background-color: #b0dbc0;
 }
 section.FYR {
-  background-color: #DFECF6;
+  background-color: #b0dbc0;
 }
 section.FYR code {
-background: #d1e1d8;
-color: #18741b;
+  background: #d1e1d8;
+  color: #18741b;
 }
 
 header {
@@ -119,12 +119,12 @@ section cite {
   font-size: 50%;
   line-height: calc(0.25rem * 4);
   float: right;
-  color: #62c8b0;
+  color: #b0dbc0;
 }
 section footnote {
   font-style: normal;
   font-size: 80%;
-  color: #62c8b0;
+  color: #b0dbc0;
 }
 img[alt~="center"] {
   display: block;
