@@ -82,11 +82,6 @@ section.FYR code {
   background: #d1e1d8;
   color: #18741b;
 }
-section blockquote,
-section blockquote::before,
-section blockquote::after {
-  background: #DF656120;
-  color: #001709; }
 
 header {
   background-color: #b0dbc0;
