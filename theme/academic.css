@@ -196,21 +196,12 @@ header {
   text-align: center;
 }
 
-/*
-blockquote {
-  max-width: 90%;
-  border-top: 0.1em dashed #555;
-  font-size:90%;
-  position: absolute;
-  bottom: 20px;
-}
 blockquote::before {
-  content: "";
+  content: " ";
 }
 blockquote::after {
-  content: "";
+  content: " ";
 }
-*/
 
 img[alt~="center"] {
   display: block;
