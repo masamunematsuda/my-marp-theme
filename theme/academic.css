@@ -116,10 +116,10 @@ section strong {
 }
 section cite {
   font-style: normal;
-  font-size: 50%;
+  font-size: 65%;
   line-height: calc(0.25rem * 4);
   float: right;
-  color: #b0dbc0;
+  color: #578166;
 }
 section footnote {
   font-style: normal;
