@@ -12,7 +12,7 @@
 
 section {
   background-image: none;
-  font-family: 'Avenir Next', 'Noto Sans CJK JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   padding-top: 90px;
   padding-left: 40px;
   padding-right: 40px;
@@ -115,7 +115,6 @@ section strong {
   color: LightCoral;
 }
 section cite {
-  font-family: "Avenir Next Condensed";
   font-style: normal;
   font-size: 70%;
   line-height: calc(0.25rem * 4);
