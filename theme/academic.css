@@ -67,14 +67,14 @@ section.lead p {
   text-align: right;
 }
 section.inside-title {
-  background-color: #A3C6E5;
+  background-color: #b0dbc0;
 }
 section.FYR {
   background-color: #DFECF6;
 }
 section.FYR code {
-background: #d1d8e1;
-color: #2962AD;
+background: #d1e1d8;
+color: #18741b;
 }
 
 header {
