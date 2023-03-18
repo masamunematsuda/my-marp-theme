@@ -1,0 +1,139 @@
+/* @theme academic */
+
+@charset "UTF-8";
+
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap");
+@import '~highlight.js/styles/sunburst';
+svg[data-marp-fitting='svg'] {
+  max-height: 580px; }
+
+:root {
+  --color-background: #ede8d2;
+  --color-foreground: #333;
+  --color-highlight: #01461c;
+}
+
+section {
+  background-image: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* https://github.com/marp-team/marpit/issues/271 */
+section::after {
+  font-weight: 700;
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+ul ul {
+  font-size: 0.9em;
+}
+
+section.lead h1 {
+  color: #01461c;
+  text-align: left;
+}
+section.lead h1 strong {
+  -webkit-text-stroke: 1px #01461c;
+}
+section.lead h2 {
+  color: #01461c;
+  text-align: left;
+}
+section.lead h2 strong {
+  -webkit-text-stroke: 1px #01461c;
+}
+section.lead h3 {
+  color: #01461c;
+  text-align: left;
+}
+section.lead h3 strong {
+  -webkit-text-stroke: 1px #01461c;
+}
+section.lead h4 {
+  color: #01461c;
+  text-align: left;
+}
+section.lead h4 strong {
+  -webkit-text-stroke: 1px #01461c;
+}
+section.lead h5 {
+  color: #01461c;
+  text-align: left;
+}
+section.lead h5 strong {
+  -webkit-text-stroke: 1px #01461c;
+}
+section.lead p {
+  text-align: right;
+}
+section.inside-title {
+  background-color: #b0dbc0;
+}
+section.FYR {
+  background-color: #b0dbc0;
+}
+section.FYR code {
+  background: #d1e1d8;
+  color: #18741b;
+}
+
+header {
+  background-color: #b0dbc0;
+  color: #01461c;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+blockquote {
+  max-width: 90%;
+  border-top: 0.1em dashed #555;
+  font-size: 80%;
+  position: absolute;
+  bottom: 20px;
+}
+blockquote::before {
+  content: "";
+}
+blockquote::after {
+  content: "";
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  display: inline-block;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  margin: -0.1em 0.15em;
+  padding: 0.1em 0.2em;
+  vertical-align: baseline; }
+
+section {
+  font-size: 20px;
+}
+section strong {
+  color: LightCoral;
+}
+section cite {
+  font-size: 90%;
+  line-height: calc(0.25rem * 4);
+  float: right;
+  color: #01461c;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
