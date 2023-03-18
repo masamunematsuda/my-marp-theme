@@ -20,6 +20,8 @@ section {
 }
 section.inside-title {
   background-color: var(--beamer-main);
+  background-color: var(--beamer-main);
+  text-align: left;
 }
 section.FYR {
   background-color: var(--beamer-main);
@@ -40,6 +42,7 @@ header {
   right: 0;
   left: -51%;
   color: var(--beamer-secondary);
+  background-color: var(--beamer-main);
 }
 
 footer {
@@ -52,6 +55,7 @@ footer {
   right: 0;
   left: 50.8%;
   color: var(--beamer-main);
+  background-color: var(--beamer-main);
 }
 
 h1, h2, h3, h4, h5, h6 {
