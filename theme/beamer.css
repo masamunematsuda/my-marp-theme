@@ -4,13 +4,13 @@
 
 :root {
   font-family: "Avenir Next", "Noto Sans CJK JP", sans-serif;
-  --beamer-main: #b0dbc0;
-  --beamer-secondary: #1e5427;
+  --beamer-main: #81B494;
+  --beamer-secondary: #054734;
 }
 
 section {
   font-size: 20px;
-  background-color: #ede8d2;
+  background-color: #E2DFCC;
   padding: 1%;
   justify-content: flex-start;
 }
@@ -18,7 +18,7 @@ section.inside-title {
   background-color: var(--beamer-main);
 }
 section.FYR {
-  background-color: var(--beamer-main);
+  background-color: #BAD8CE;
 }
 section.FYR code {
   background: var(--beamer-secondary);
