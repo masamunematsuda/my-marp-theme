@@ -3,7 +3,7 @@
 @import "default";
 
 :root {
-  font-family: "Avenir Next", "Noto Sans CJK JP", sans-serif;
+  font-family: "Avenir Next", "Noto Sans JP",  "Noto Sans CJK JP", sans-serif;
   --beamer-main: #81B494;
   --beamer-secondary: #054734;
 }
@@ -97,7 +97,7 @@ section.lead p {
 
 /* only apply to the first occurrence of h1 */
 h2:nth-of-type(1) {
-  font-family: "Avenir Next Bold", "Noto Sans CJK JP Black";
+  font-family: "Avenir Next Bold", "Noto Sans JP Bold", "Noto Sans CJK JP Black";
   font-size: 28px;
   color: var(--beamer-secondary);
   background-color: var(--beamer-main);
